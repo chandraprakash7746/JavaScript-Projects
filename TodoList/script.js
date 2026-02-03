@@ -34,7 +34,9 @@
 //     }
 //     else{
 //         alert("Please enter Task first !!");
-//     }
+//     }    
+// })
+
 
 // Use localStorage
 
@@ -93,7 +95,6 @@ function clearAllTask(){
 }
 
 
-    
-// })
+
 
 
