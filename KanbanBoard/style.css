@@ -174,3 +174,18 @@ textarea{
     resize: none;
     overflow: hidden;
 }
+.empty-message {
+    text-align: center;
+    padding: var(--space-xl);
+    color: rgba(245, 245, 245, 0.4); /* Thoda sa feeka color taaki bura na lage */
+    font-size: var(--font-size-md);
+    font-style: italic;
+    border: 2px dashed rgba(245, 245, 245, 0.1);
+    margin: var(--space-sm);
+    border-radius: var(--border-radius-sm);
+    display: block; 
+}
+
+.task-column:has(.task) .empty-message {
+    display: none;
+}
