@@ -14,29 +14,20 @@
       </nav>
 
       <section>
-        <div id="todo" class="task-column ">
+        <div id="todo" class="task-column">
           <div class="heading">
             <div class="left">Todo</div>
             <div class="right">0</div>
           </div>
-          <!-- <div draggable="true" class="task">
-            <h1>Task 1</h1>
-            <p>Description fortask 1</p>
-            <button class="dltBtn btn">Delete</button>
-          </div> -->
+          <div class="empty-message">Todo is empty</div>
         </div>
 
-        <div id="progress" class="task-column ">
+        <div id="progress" class="task-column">
           <div class="heading">
             <div class="left">Progress</div>
             <div class="right">0</div>
           </div>
-          <!-- <div draggable="true" class="task">
-            <h1>Task 1</h1>
-            <p>Description fortask 1</p>
-            <button class="dltBtn btn">Delete</button>
-          </div> -->
-          
+          <div class="empty-message">Progress is empty</div>
         </div>
 
         <div id="done" class="task-column">
@@ -44,14 +35,24 @@
             <div class="left">Done</div>
             <div class="right">0</div>
           </div>
-          
+          <div class="empty-message">Done is empty</div>
         </div>
       </section>
 
       <div class="modal hide">
         <div class="modal-content">
-          <input id="input" class="input-field" type="text" placeholder="Task Discription">
-          <textarea id="text-area" class="input-field" type="text" placeholder="Task Title"></textarea>
+          <input
+            id="input"
+            class="input-field"
+            type="text"
+            placeholder="Task Discription"
+          />
+          <textarea
+            id="text-area"
+            class="input-field"
+            type="text"
+            placeholder="Task Title"
+          ></textarea>
           <button id="add-task-btn" class="btn">Add Task</button>
         </div>
       </div>
